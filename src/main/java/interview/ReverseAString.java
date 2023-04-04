@@ -104,5 +104,19 @@ public class ReverseAString {
             acy= acy + chx;
         }
         System.out.println(acy);
+
+
+
+
+
+
+        //Reverse a string
+        String mine= "Ahmed Said Tuncpinar";
+        String min= "";
+        for (int i=mine.length()-1; i>=0; i--){
+            char chars= mine.charAt(i);
+            min= min + chars;
+        }
+        System.out.println(min);
     }
 }

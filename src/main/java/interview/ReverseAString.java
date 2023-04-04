@@ -1,0 +1,108 @@
+package interview;
+
+public class ReverseAString {
+    public static void main(String[]args) {
+       //Type code to reverse a string like Mike=>ekiM
+        String myWife= "Aysel";
+        String m= "";
+        for (int i=myWife.length()-1; i>=0; i--){
+            char ch= myWife.charAt(i);
+            m= m + ch;
+        }
+        System.out.println(m);
+
+
+
+
+        //Reverse a String
+
+        String ala= "Abdulhamit";
+        String bala= "";
+        for (int i=ala.length()-1; i>=0; i--){
+            char kala= ala.charAt(i);
+            bala= bala + kala;
+        }
+        System.out.println(bala);
+
+
+
+
+
+
+
+
+
+
+        //Reverse a String
+        String x= "Velinimet";
+        String y= "";
+        for (int i=x.length()-1; i>=0; i--){
+            char z= x.charAt(i);
+            y= y + z;
+        }
+        System.out.println(y);
+
+
+
+
+
+
+        //Reverse a String
+
+        String str= "Cekoslovakyalılaştıramadıklarımızdanmısınız";
+        String str1= "";
+        for (int i= str.length()-1; i>=0; i--){
+            char chr= str.charAt(i);
+            str1= str1 + chr;
+        }
+        System.out.println(str1);
+
+
+
+
+
+        //Reverse a String
+        String eng= "Approximately";
+        String frn= "";
+        for (int i=eng.length()-1; i>=0; i--){
+            char lrn= eng.charAt(i);
+            frn= frn + lrn;
+        }
+        System.out.println(frn);
+
+
+
+
+
+        //Reverse a String
+
+        String ast= "Formidable";
+        String aks= "";
+        for (int i= ast.length()-1; i>=0; i--){
+            char mrs= ast.charAt(i);
+            aks= aks + mrs;
+        }
+        System.out.println(aks);
+
+
+        //Reverse a string
+        String bmx= "Spectaculer";
+        String smx= "";
+        for (int i=bmx.length()-1; i>=0; i--){
+            char px= bmx.charAt(i);
+            smx= smx+ px;
+        }
+        System.out.println(smx);
+
+
+
+        //Reverse a string
+        String acx= "Maxime";
+        String acy= "";
+        for (int i=acx.length()-1; i>=0; i--){
+            char chx= acx.charAt(i);
+            acy= acy + chx;
+        }
+        System.out.println(acy);
+    }
+}

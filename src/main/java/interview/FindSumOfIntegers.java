@@ -8,6 +8,16 @@ public class FindSumOfIntegers {
            num= num + i;
        }
         System.out.println(num);
+
+
+
+
+       //find sum of the integers from 8 to 19
+        int nm= 0;
+        for (int i=8; i<20; i++){
+            nm= nm + i;
+        }
+        System.out.println(nm);
     }
 
 }

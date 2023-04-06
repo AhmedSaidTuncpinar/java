@@ -8,6 +8,20 @@ public class FindMultiplicationOfIntegers {
             mltply= mltply * i;
         }
         System.out.println(mltply);
+
+
+
+
+
+
+
+
+        //Find the multiplication the integer from 8 to 12
+        int numb= 1;
+        for (int i=8; i<13; i++){
+            numb= numb * i;
+        }
+        System.out.println(numb);
     }
 
 }

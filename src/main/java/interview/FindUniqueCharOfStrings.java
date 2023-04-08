@@ -56,6 +56,20 @@ public class FindUniqueCharOfStrings {
                 System.out.print(sqr.charAt(i));
             }
         }
+
+
+        System.out.println();
+
+
+        //Print unique characters in a String.
+        String sdk= "Danışman";
+        for (int i=0; i<sdk.length(); i++){
+            if (sdk.indexOf(sdk.charAt(i))==sdk.lastIndexOf(sdk.charAt(i))){
+                System.out.print(sdk.charAt(i));
+            }
+        }
+
+
     }
 }
 

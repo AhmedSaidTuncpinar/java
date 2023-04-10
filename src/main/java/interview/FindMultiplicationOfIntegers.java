@@ -22,6 +22,17 @@ public class FindMultiplicationOfIntegers {
             numb= numb * i;
         }
         System.out.println(numb);
+
+
+        System.out.println();
+
+
+        //Find multiplication of integers from 87 to 89.
+        int bmx= 1;
+        for (int i=87; i<90; i++){
+            bmx = bmx * i;
+        }
+        System.out.println(bmx);
     }
 
 }

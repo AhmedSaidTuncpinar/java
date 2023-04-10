@@ -18,6 +18,19 @@ public class FindSumOfIntegers {
             nm= nm + i;
         }
         System.out.println(nm);
+
+
+
+
+
+
+        //Find sum of integers from 18 to 99
+
+        int xy=0;
+        for (int i=18; i<100; i++){
+            xy= xy + i;
+        }
+        System.out.println(xy);
     }
 
 }

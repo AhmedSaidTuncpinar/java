@@ -118,5 +118,17 @@ public class ReverseAString {
             min= min + chars;
         }
         System.out.println(min);
+
+
+        System.out.println();
+
+        //Reverse a string
+        String ahm= "Ayna";
+        String abm= "";
+        for (int i=ahm.length()-1; i>=0; i--){
+            char cx= ahm.charAt(i);
+            abm= abm + cx;
+        }
+        System.out.println(abm);
     }
 }

@@ -130,5 +130,16 @@ public class ReverseAString {
             abm= abm + cx;
         }
         System.out.println(abm);
+
+
+        //Reverse a string on the console.
+        String astu= "Ahmet Sait Tuncpinar";
+        String as= "";
+        for (int i= astu.length()-1; i>=0; i--){
+            char asx= astu.charAt(i);
+            as= as + asx;
+        }
+        System.out.println(as);
+
     }
 }

@@ -14,6 +14,14 @@ public class FiveTimesHi {
      //Write 6 times "Hi" at the same line on the console
         for (int i=1; i<7; i++)
             System.out.print("Hi" + " ");
+
+
+        System.out.println();
+        //Print 18 times "Ahmet" at the same line on the console.
+
+        for (int i=0; i<19; i++){
+            System.out.print("Ahmet" + " ");
+        }
         }
     }
 

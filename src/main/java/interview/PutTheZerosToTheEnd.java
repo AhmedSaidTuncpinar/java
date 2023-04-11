@@ -34,6 +34,20 @@ public class PutTheZerosToTheEnd {
             }
         }
         System.out.println(Arrays.toString(brr));
+
+        System.out.println();
+
+        //Put the zeros to the end in an array
+        int ara[]= {0,45,1,0,4,0,98,5,8,9};
+        int bra[]= new int[ara.length];
+        int cra=0;
+        for (int i =0; i<ara.length; i++){
+            if (ara[i]!=0){
+                bra[cra]=ara[i];
+                cra++;
+            }
+        }
+        System.out.println(Arrays.toString(bra));
         }
     }
 

@@ -78,6 +78,17 @@ public class FindUniqueCharOfStrings {
             }
 
         }
+
+        System.out.println();
+
+        //Find the unique characters in a string
+        String unique= "spectacular";
+        for (int i=0; i<unique.length(); i++){
+            if (unique.indexOf(unique.charAt(i))==unique.lastIndexOf(unique.charAt(i))){
+                System.out.print(unique.charAt(i));
+            }
+        }
+
     }
 }
 

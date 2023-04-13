@@ -141,5 +141,15 @@ public class ReverseAString {
         }
         System.out.println(as);
 
+        System.out.println();
+
+        //Reverse a string
+        String ays= "Aysel Kanmaz";
+        String knz= "";
+        for (int i=ays.length()-1; i>=0; i--){
+            char cz= ays.charAt(i);
+            knz= knz + cz;
+        }
+        System.out.println(knz);
     }
 }

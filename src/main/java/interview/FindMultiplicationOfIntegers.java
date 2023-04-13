@@ -33,6 +33,16 @@ public class FindMultiplicationOfIntegers {
             bmx = bmx * i;
         }
         System.out.println(bmx);
+
+
+
+
+        //Find multiplication of integers from 80 to 89;
+        int ast= 1;
+        for (int i=80; i<89; i++){
+            ast= ast * i;
+        }
+        System.out.println(ast);
     }
 
 }

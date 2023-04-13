@@ -48,6 +48,19 @@ public class PutTheZerosToTheEnd {
             }
         }
         System.out.println(Arrays.toString(bra));
+
+        //Put the zeros to the end in an array
+
+        int ark[]= {0,15,0,2,0,24,3, 7};
+        int brk[]= new int[ark.length];
+        int crk= 0;
+        for (int i=0; i<ark.length; i++){
+            if (ark[i]!=0){
+                brk[crk]=ark[i];
+                crk++;
+            }
+        }
+        System.out.println(Arrays.toString(brk));
         }
     }
 

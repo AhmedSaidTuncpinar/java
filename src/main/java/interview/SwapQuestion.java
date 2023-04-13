@@ -30,6 +30,16 @@ public class SwapQuestion {
        x=z;
        System.out.println(x);
        System.out.println(y);
+
+       //Swap 2 integer
+
+       int ar= 23, br= 33;
+       int cr= 0;
+       cr=br;
+       br=ar;
+       ar=cr;
+       System.out.println(ar);
+       System.out.println(br);
    }
     }
 

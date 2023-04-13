@@ -89,6 +89,15 @@ public class FindUniqueCharOfStrings {
             }
         }
 
+
+        System.out.println();
+        //Find unique characters in a string
+        String ast= "Repositories";
+        for (int i=0; i<ast.length(); i++){
+            if (ast.indexOf(ast.charAt(i))==ast.lastIndexOf(ast.charAt(i))){
+                System.out.print(ast.charAt(i));
+            }
+        }
     }
 }
 

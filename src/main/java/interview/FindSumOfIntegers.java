@@ -31,6 +31,15 @@ public class FindSumOfIntegers {
             xy= xy + i;
         }
         System.out.println(xy);
+
+
+
+        //Find sum of integers from 81 to 135.
+        int ast= 0;
+        for (int i=81; i<136; i++){
+            ast = ast + i;
+        }
+        System.out.println(ast);
     }
 
 }

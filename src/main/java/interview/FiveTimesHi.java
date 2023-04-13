@@ -22,6 +22,12 @@ public class FiveTimesHi {
         for (int i=0; i<19; i++){
             System.out.print("Ahmet" + " ");
         }
+        System.out.println();
+        //Print on the console 7 times "Good Morning" at the same line
+
+        for (int i=0; i<8; i++){
+            System.out.print("Good Morning" + " ");
+        }
         }
     }
 

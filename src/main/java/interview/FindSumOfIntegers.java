@@ -40,6 +40,16 @@ public class FindSumOfIntegers {
             ast = ast + i;
         }
         System.out.println(ast);
+
+        System.out.println();
+
+        //Find the sum of integers 1 to 10
+
+        int ak= 0;
+        for (int i= 1; i<11; i++){
+            ak= ak + i;
+        }
+        System.out.println(ak);
     }
 
 }

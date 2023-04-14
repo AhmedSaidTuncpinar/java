@@ -61,6 +61,19 @@ public class PutTheZerosToTheEnd {
             }
         }
         System.out.println(Arrays.toString(brk));
+
+        //Put the zeros to the end in an Array
+
+        int rry[]= {0,21,0,9};
+        int bry[]= new int[rry.length];
+        int cry= 0;
+        for (int i=0; i<rry.length; i++){
+            if (rry[i]!=0){
+                bry[cry]=rry[i];
+                cry++;
+            }
+        }
+        System.out.println(Arrays.toString(bry));
         }
     }
 

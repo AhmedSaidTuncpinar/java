@@ -98,6 +98,15 @@ public class FindUniqueCharOfStrings {
                 System.out.print(ast.charAt(i));
             }
         }
+
+        System.out.println();
+        //Find unique characters in a string
+        String unim= "hellowork";
+        for (int i=0; i<unim.length(); i++){
+            if (unim.indexOf(unim.charAt(i))==unim.lastIndexOf(unim.charAt(i))){
+                System.out.print(unim.charAt(i));
+            }
+        }
     }
 }
 

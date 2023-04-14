@@ -28,6 +28,13 @@ public class FiveTimesHi {
         for (int i=0; i<8; i++){
             System.out.print("Good Morning" + " ");
         }
+
+        System.out.println();
+
+        //Print on the console 10 times "Hello World" at the same line
+        for (int i= 0; i<11; i++){
+            System.out.print("Hello World" + " ");
+        }
         }
     }
 

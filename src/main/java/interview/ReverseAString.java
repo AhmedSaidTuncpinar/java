@@ -151,5 +151,17 @@ public class ReverseAString {
             knz= knz + cz;
         }
         System.out.println(knz);
+
+
+        System.out.println();
+
+        //Reverse a string
+        String ak= "Riza Rabiye";
+        String ka= "";
+        for (int i= ak.length()-1; i>=0; i--){
+            char ck= ak.charAt(i);
+            ka= ka + ck;
+        }
+        System.out.println(ka);
     }
 }

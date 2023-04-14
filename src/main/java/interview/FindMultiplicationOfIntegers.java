@@ -43,6 +43,16 @@ public class FindMultiplicationOfIntegers {
             ast= ast * i;
         }
         System.out.println(ast);
+
+        System.out.println();
+
+        //find multiplication of integers from 1 to 10
+
+        int num= 1;
+        for (int i=1; i<11; i++){
+            num= num * i;
+        }
+        System.out.println(num);
     }
 
 }

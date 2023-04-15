@@ -163,5 +163,33 @@ public class ReverseAString {
             ka= ka + ck;
         }
         System.out.println(ka);
+
+
+
+
+        //Reverse a string
+
+        String aix= "Bournazakis";
+        String bix= "";
+        for (int i=aix.length()-1; i>=0; i--){
+            char zix= aix.charAt(i);
+            bix = bix + zix;
+        }
+        System.out.println(bix);
+
+
+        System.out.println();
+
+
+
+
+        //Reverse a string
+        String tix= "Konstantinos";
+        String siz= "";
+        for (int i=tix.length()-1; i>=0; i--){
+            char uix= tix.charAt(i);
+            siz = siz + uix;
+        }
+        System.out.println(siz);
     }
 }

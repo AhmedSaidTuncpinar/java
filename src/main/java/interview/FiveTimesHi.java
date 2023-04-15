@@ -35,6 +35,14 @@ public class FiveTimesHi {
         for (int i= 0; i<11; i++){
             System.out.print("Hello World" + " ");
         }
+
+        System.out.println();
+
+        //Print on the console 7 times "Good Morning"
+
+        for (int i=1; i<8; i++){
+            System.out.println("Good Morning" + " ");
+        }
         }
     }
 

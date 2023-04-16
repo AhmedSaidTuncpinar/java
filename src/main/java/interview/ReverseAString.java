@@ -191,5 +191,20 @@ public class ReverseAString {
             siz = siz + uix;
         }
         System.out.println(siz);
+
+
+
+
+
+        System.out.println();
+        //Reverse a string
+        String rvrs= "reverse";
+        String bvrs= "";
+        for (int i= rvrs.length()-1; i>=0; i--){
+            char cvrs= rvrs.charAt(i);
+            bvrs= bvrs + cvrs;
+        }
+        System.out.println(bvrs);
+
     }
 }

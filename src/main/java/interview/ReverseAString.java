@@ -206,5 +206,29 @@ public class ReverseAString {
         }
         System.out.println(bvrs);
 
+
+        System.out.println();
+
+
+
+
+
+
+
+
+
+
+
+
+        //Reverse a String
+        String a= "string";
+        String b= "";
+
+        for (int i=a.length()-1; i>=0; i--){
+            char c= a.charAt(i);
+            b= b + c;
+        }
+        System.out.println(b);
+
     }
 }

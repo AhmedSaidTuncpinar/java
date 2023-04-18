@@ -62,6 +62,7 @@ public class FindMultiplicationOfIntegers {
             t= t * i;
         }
         System.out.println(t);
+
     }
 
 }

@@ -50,6 +50,18 @@ public class FindSumOfIntegers {
             ak= ak + i;
         }
         System.out.println(ak);
+
+
+        System.out.println();
+
+        //Find sum of integers from 9 to 18;
+        int ax=0;
+        for (int i=9; i<19; i++){
+            ax = ax + i;
+        }
+        System.out.println(ax);
+
+
     }
 
 }

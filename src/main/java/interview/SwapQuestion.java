@@ -40,6 +40,19 @@ public class SwapQuestion {
        ar=cr;
        System.out.println(ar);
        System.out.println(br);
+
+
+       System.out.println();
+
+       //Swap 2 integers
+
+       int t=44, s=34;
+       int u=0;
+       u=s;
+       s=t;
+       t=u;
+       System.out.println(t);
+       System.out.println(s);
    }
     }
 

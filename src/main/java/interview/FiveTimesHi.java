@@ -43,6 +43,12 @@ public class FiveTimesHi {
         for (int i=1; i<8; i++){
             System.out.println("Good Morning" + " ");
         }
+        System.out.println();
+
+        //Print 5 times "Kalimera" on the console at the same line
+        for (int i=1; i<6; i++){
+            System.out.print("Kalimera" + " ");
+        }
         }
     }
 

@@ -230,5 +230,19 @@ public class ReverseAString {
         }
         System.out.println(b);
 
+
+        System.out.println();
+
+
+
+        //Reverse a string
+        String t= "Kalimera";
+        String s= "";
+        for (int i=t.length()-1; i>=0; i--){
+            char e= t.charAt(i);
+            s= s + e;
+        }
+        System.out.println(s);
+
     }
 }

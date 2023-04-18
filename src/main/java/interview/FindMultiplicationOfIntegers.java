@@ -53,6 +53,15 @@ public class FindMultiplicationOfIntegers {
             num= num * i;
         }
         System.out.println(num);
+
+
+        System.out.println();
+        //Find multiplication of integers from 17 to 27;
+        int t= 1;
+        for (int i=17; i<28; i++ ){
+            t= t * i;
+        }
+        System.out.println(t);
     }
 
 }

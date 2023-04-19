@@ -53,6 +53,18 @@ public class SwapQuestion {
        t=u;
        System.out.println(t);
        System.out.println(s);
+
+
+       System.out.println();
+
+       int one= 34, two=45;
+       int three= 0;
+       three= two;
+       two=one;
+       one= three;
+
+       System.out.println(one);
+       System.out.println(two);
    }
     }
 

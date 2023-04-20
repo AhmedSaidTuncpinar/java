@@ -107,6 +107,17 @@ public class FindUniqueCharOfStrings {
                 System.out.print(unim.charAt(i));
             }
         }
+
+
+        System.out.println();
+
+        //Find unique characters in a string
+        String rmd= "ramadan";
+        for (int i=0; i<rmd.length(); i++){
+            if (rmd.indexOf(rmd.charAt(i))==rmd.lastIndexOf(rmd.charAt(i))){
+                System.out.print(rmd.charAt(i));
+            }
+        }
     }
 }
 

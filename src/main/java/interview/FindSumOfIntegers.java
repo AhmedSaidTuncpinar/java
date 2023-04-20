@@ -61,7 +61,14 @@ public class FindSumOfIntegers {
         }
         System.out.println(ax);
 
+        System.out.println();
 
+        //find sum of integers from 6 to 8
+        int rmd=0;
+        for (int i=6; i<9; i++){
+            rmd= rmd + i;
+        }
+        System.out.println(rmd);
     }
 
 }

@@ -62,7 +62,17 @@ public class FindMultiplicationOfIntegers {
             t= t * i;
         }
         System.out.println(t);
+        System.out.println();
 
+
+
+
+        //find multiplication of integers from 6 to 8.
+        int rmd= 1;
+        for (int i=6; i<9; i++){
+            rmd= rmd * i;
+        }
+        System.out.println(rmd);
     }
 
 }

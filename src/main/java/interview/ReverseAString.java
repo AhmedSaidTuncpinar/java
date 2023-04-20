@@ -244,5 +244,15 @@ public class ReverseAString {
         }
         System.out.println(s);
 
+
+        System.out.println();
+
+        String rmd= "Ramadan";
+        String bmd= "";
+        for (int i= rmd.length()-1; i>=0; i--){
+            char cmd= rmd.charAt(i);
+            bmd= bmd + cmd;
+        }
+        System.out.println(bmd);
     }
 }

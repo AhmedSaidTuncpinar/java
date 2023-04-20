@@ -49,6 +49,12 @@ public class FiveTimesHi {
         for (int i=1; i<6; i++){
             System.out.print("Kalimera" + " ");
         }
+
+
+        //Print 7 times "Ramadan" on the console at the same line
+        for (int i=1; i<8; i++){
+            System.out.print("Ramadan" + " ");
+        }
         }
     }
 

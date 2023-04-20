@@ -74,6 +74,21 @@ public class PutTheZerosToTheEnd {
             }
         }
         System.out.println(Arrays.toString(bry));
+
+        System.out.println();
+
+        //Put the zeros to the end in an Array
+        int[] rmdy= {0,0,0,1,2,3};
+        int[] bmdy= new int[rmdy.length];
+        int cmdy= 0;
+        for (int i=0; i<rmdy.length; i++){
+            if (rmdy[i]!=0){
+                bmdy[cmdy]=rmdy[i];
+                cmdy ++;
+
+            }
+        }
+        System.out.println(Arrays.toString(bmdy));
         }
     }
 

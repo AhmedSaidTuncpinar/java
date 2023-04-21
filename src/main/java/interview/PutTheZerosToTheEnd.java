@@ -86,6 +86,7 @@ public class PutTheZerosToTheEnd {
                 bmdy[cmdy]=rmdy[i];
                 cmdy ++;
 
+
             }
         }
         System.out.println(Arrays.toString(bmdy));

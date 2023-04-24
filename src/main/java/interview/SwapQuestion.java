@@ -65,6 +65,18 @@ public class SwapQuestion {
 
        System.out.println(one);
        System.out.println(two);
+
+       System.out.println();
+
+       //Swap 2 integers
+
+       int as= 328, at= 1;
+       int ax=0;
+       ax=at;
+       at=as;
+       as=ax;
+       System.out.println(as);
+       System.out.println(at);
    }
     }
 

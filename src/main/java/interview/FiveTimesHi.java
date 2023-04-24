@@ -55,6 +55,14 @@ public class FiveTimesHi {
         for (int i=1; i<8; i++){
             System.out.print("Ramadan" + " ");
         }
+
+        System.out.println();
+
+        //Print 9 Times "School" on the console
+
+        for (int i=1; i<10; i++){
+            System.out.print("School" + " ");
+        }
         }
     }
 

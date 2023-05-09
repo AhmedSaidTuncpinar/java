@@ -70,5 +70,4 @@ public class FindSumOfIntegers {
         }
         System.out.println(rmd);
     }
-
 }

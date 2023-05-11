@@ -1,5 +1,7 @@
 package interview;
 
+import java.util.Scanner;
+
 public class ReverseAString {
     public static void main(String[]args) {
        //Type code to reverse a string like Mike=>ekiM
@@ -254,5 +256,20 @@ public class ReverseAString {
             bmd= bmd + cmd;
         }
         System.out.println(bmd);
+
+        System.out.println();
+
+        String am;
+        String bm= "";
+        //Ask user a string to reverse it
+        Scanner input= new Scanner(System.in);
+        System.out.println("Input a String to reverse");
+        am=input.nextLine();
+
+        for (int i=am.length()-1; i>=0; i--){
+            char cm= am.charAt(i);
+            bm= bm + cm;
+        }
+        System.out.println(bm);
     }
 }

@@ -1,5 +1,7 @@
 package interview;
 
+import java.util.Scanner;
+
 public class SwapQuestion {
    public static void main(String[]args) {
        //Swap 2 integers
@@ -77,6 +79,25 @@ public class SwapQuestion {
        as=ax;
        System.out.println(as);
        System.out.println(at);
+
+       //Swap 2 integers given by user
+       int n, m;
+       int o=0;
+       Scanner input= new Scanner(System.in);
+       System.out.println("Input first integer");
+       n=input.nextInt();
+       System.out.println("Input second integer");
+       m=input.nextInt();
+       System.out.println("Before swap n " + n);
+       System.out.println("Before swap m " + m);
+       o=m;
+       m=n;
+       n=o;
+
+       System.out.println("After swap n " + n);
+       System.out.println("After swap m " + m);
+
+
    }
     }
 

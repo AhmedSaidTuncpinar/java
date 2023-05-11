@@ -1,5 +1,7 @@
 package interview;
 
+import java.util.Scanner;
+
 public class FindSumOfIntegers {
     public static void main(String[]args){
        //find sum of the integers from 3 to 9
@@ -69,5 +71,19 @@ public class FindSumOfIntegers {
             rmd= rmd + i;
         }
         System.out.println(rmd);
+        System.out.println();
+        //Find sum of integers given by user
+        int aum1;
+        int aum2;
+        int sum=0;
+        Scanner input= new Scanner(System.in);
+        System.out.println("Enter First small integer");
+        aum1= input.nextInt();
+        System.out.println("Enter second great Integer");
+        aum2=input.nextInt();
+        for (int i=aum1; i<aum2; i++){
+            sum= sum + i;
+        }
+        System.out.println("Sum of given integers " + sum );
     }
 }

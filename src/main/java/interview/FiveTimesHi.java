@@ -1,5 +1,7 @@
 package interview;
 
+import java.util.Scanner;
+
 public class FiveTimesHi {
     public static void main(String[]args){
        //Print on the console 5 times "hi" at the same line
@@ -62,6 +64,15 @@ public class FiveTimesHi {
 
         for (int i=1; i<10; i++){
             System.out.print("School" + " ");
+        }
+        System.out.println();
+        //Ask user a string and print it on the console 5 times
+        String a;
+        Scanner input= new Scanner(System.in);
+        System.out.println("Enter a String");
+        a=input.nextLine();
+        for (int i=1; i<6; i++){
+            System.out.print(" " + a);
         }
         }
     }

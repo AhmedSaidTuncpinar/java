@@ -1,5 +1,7 @@
 package interview;
 
+import java.util.Scanner;
+
 public class FindMultiplicationOfIntegers {
     public static void main(String[]args){
         //Find the multiplication of Integers from 2 to 9.
@@ -73,6 +75,21 @@ public class FindMultiplicationOfIntegers {
             rmd= rmd * i;
         }
         System.out.println(rmd);
+
+        //Find multiplication of given integers from 6 to 11.
+        int giv=1;
+        int civ;
+        int tiv;
+        Scanner input= new Scanner(System.in);
+        System.out.println("Input an initial Integer");
+        civ= input.nextInt();
+        System.out.println("Input a final Integer");
+        tiv=input.nextInt();
+
+        for (int i=civ; i<tiv; i++){
+            giv= giv * i;
+        }
+        System.out.println(giv);
     }
 
 }

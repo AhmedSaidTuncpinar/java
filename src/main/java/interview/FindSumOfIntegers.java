@@ -85,5 +85,8 @@ public class FindSumOfIntegers {
             sum= sum + i;
         }
         System.out.println("Sum of given integers " + sum );
+
+        System.out.println();
+
     }
 }

@@ -1,5 +1,7 @@
 package interview;
 
+import java.util.Scanner;
+
 public class FindUniqueCharOfStrings {
     public static void main(String[]args){
         //Find the unique characters in a string value.
@@ -116,6 +118,17 @@ public class FindUniqueCharOfStrings {
         for (int i=0; i<rmd.length(); i++){
             if (rmd.indexOf(rmd.charAt(i))==rmd.lastIndexOf(rmd.charAt(i))){
                 System.out.print(rmd.charAt(i));
+            }
+        }
+        System.out.println();
+        //Find unique characters in a given string
+        String ays= "";
+        Scanner input= new Scanner(System.in);
+        System.out.println("Enter a string to find unique characters in it");
+        ays=input.nextLine();
+        for (int i=0; i<ays.length(); i++){
+            if (ays.indexOf(ays.charAt(i))==ays.lastIndexOf(ays.charAt(i))){
+                System.out.print(ays.charAt(i));
             }
         }
     }

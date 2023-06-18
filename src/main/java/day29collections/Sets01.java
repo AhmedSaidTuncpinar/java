@@ -17,7 +17,7 @@ public class Sets01 {
                                           ii)LinkedHashSet: Puts the elements in "Insertion Order"
                                           iii)TreeSet: Puts the elements in "Natural Order"(Ascending Order in numbers, Alphabetical Order in Strings)
                                               TreeSet is so slow in adding elements
-            Question: If you need to store "unique elements" in "natural order", which collection do yo use?
+            Question: If you need to store "unique elements" in "natural order", which collection do you use?
                       Answer: TreeSet
             Question: As you know, TreeSet is so slow in adding elements, how can you improve your code?
                       i)Create a HashSet
